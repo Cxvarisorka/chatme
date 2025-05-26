@@ -8,7 +8,7 @@ const app = express();
 
 // თუ სჭირდება, გააქტიურე CORS აპლიკაციაზე, Socket.IO-ს CORS-სთან ერთად
 app.use(cors({
-  origin: 'https://chatme.onrender.com', // მხოლოდ შენს რეაქტ აპლიკაციას აუშვებს
+  origin: 'https://chatme-6qrg.onrender.com', // მხოლოდ შენს რეაქტ აპლიკაციას აუშვებს
 }));
 
 // სტატიკური ფოლდერი (თუ შენ იყენებ React-ის build-ს, რომელიც “dist” ან “build” ფოლდერშია)
